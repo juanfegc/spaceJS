@@ -1,1 +1,1 @@
-Ejercicio 2 jQuery - curso cajascript
+Ejercicio 2 jQuery - curso javascript
