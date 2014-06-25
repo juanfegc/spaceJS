@@ -12,6 +12,7 @@ $("#boton").click(function() {
     //actualizar barra progreso
     progreso.css('width', '100%');
     //animar cohete
+    cohete.attr( "src", "./img/cohete.gif" );
     volar = true;
   }else{//Boton Aterrizar
     btn.html("<span class='glyphicon glyphicon-send'></span> Despegar cohete");
@@ -20,6 +21,7 @@ $("#boton").click(function() {
     //actualizar barra progreso
     progreso.css('width', '0%');
     //dejar de mover el cohete
+    cohete.attr( "src", "./img/cohete.png" );
     volar = false;
   }
 });
