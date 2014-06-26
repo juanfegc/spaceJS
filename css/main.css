@@ -8,6 +8,10 @@
     display: none;
 }
 
+body {
+  color: #ffffff;
+  background: url(../img/universe.jpg) repeat;
+}
 
 
 

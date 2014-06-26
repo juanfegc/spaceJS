@@ -26,7 +26,7 @@ $("#boton").click(function() {
   }
 });
 
-$("body").dblclick(function( event ) {
+$("#universe").click(function( event ) {
   if(volar){
     cohete.animate({"left":event.pageX-50, "top": event.pageY-50});
     //actualizar marcador numero de viajes del cohete
