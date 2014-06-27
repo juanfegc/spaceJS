@@ -35,10 +35,10 @@ $("#universe").click(function( event ) {
     viajes.text( n + 1 );
 
     //info planeta
-    $( ".info" ).hide();
+    $( ".info" ).hide();//oculto todos los nombres
     var target = $( event.target );
     if ( target.is( "img" ) ) {
-      target.next().show();
+      target.next().show();//solo muestro el nombre del planeta donde he ido
     }
   }
 });
