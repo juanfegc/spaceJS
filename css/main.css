@@ -27,6 +27,26 @@ body {
   background: url(../img/universe.jpg) repeat;
 }
 
+/******************************
+  DIRECCION MOVIMIENTO COHETE
+ ******************************/
+.dirDerechaArriba{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.dirDerechaAbajo{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+}
+.dirIzquierdaAbajo{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+}
+.dirIzquierdaArriba{
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+}
+
 /**********************
   MOVIMIENTO PLANETAS
  **********************/
@@ -71,11 +91,6 @@ body {
     animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;
     animation-duration: 6s;-webkit-animation-duration: 6s;
 }
-
-
-
-
-
 
 
 
