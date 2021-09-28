@@ -1,4 +1,4 @@
 # Ejercicio jQuery `curso javascript`
 
-- ver este código en acción [http://juanfegc.github.io/][web]
+- ver este código en acción
 [web]: http://juanfegc.github.io/
